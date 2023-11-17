@@ -77,11 +77,6 @@ to run the tests run the following command
 
 ## 👥 Authors <a name="authors"></a>
 
-👤: **Binod Bhusal-Iron Lad**
-
-- GitHub: [@binodbhusal](https://github.com/binodbhusal)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/binodbhusal/)
-
 👤: **Antoine Makdessy**
 
 - GitHub: [@ANTOINE1128](https://github.com/ANTOINE1128)
