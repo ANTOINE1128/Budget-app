@@ -1,2 +1,19 @@
-<h1>index#home</h1>
-<p>Find me in app/views/main/home.html.erb</p>
+
+    <div class = "w-100 d-flex flex-column align-items-center mt-auto">
+      <% if user_signed_in? %>
+      <h2> Welcome! to budget management Appliction</h2> 
+        <%= form_with url: destroy_user_session_path, method: :delete do %>
+          <%= submit_tag 'Sign out', class: "btn btn-dark w-100" %>
+        <% end %>
+        
+      <% else %>
+        <div class="w-100">
+          <%= link_to "Sign IN", new_user_session_path, class: "btn btn-primary w-100", style: "background-color: #3778c2; color: white;" %>
+        </div>
+        <div class="w-100 mt-2">
+          <%= link_to "SIGN UP", new_user_registration_path, class: "btn btn-outline-dark w-100", style: "color: #434b54; border-color: #434b54;" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
