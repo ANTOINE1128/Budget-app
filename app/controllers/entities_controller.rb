@@ -12,7 +12,8 @@ class EntitiesController < ApplicationController
     selected_group_id = params[:entity][:group_ids]
 
     if @entity.save
-      redirect_to group_path(params[:entity][:group_ids].first), notice: 'transaction created successfully .'
+      group_ids = params[:entity][:group_ids]
+      redirect_to group_ids.present? ? group_path(group_ids.first) : groups_path, notice: 'Transaction created successfully.'
     else
       render 'new'
     end
