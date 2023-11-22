@@ -9,11 +9,12 @@ class EntitiesController < ApplicationController
 
   def create
     @entity = @group.entities.new(entity_params.merge(user_id: current_user.id))
-    selected_group_id = params[:entity][:group_ids]
+    params[:entity][:group_ids]
 
     if @entity.save
       group_ids = params[:entity][:group_ids]
-      redirect_to group_ids.present? ? group_path(group_ids.first) : groups_path, notice: 'Transaction created successfully.'
+      redirect_to group_ids.present? ? group_path(group_ids.first) : groups_path,
+                  notice: 'Transaction created successfully.'
     else
       render 'new'
     end
