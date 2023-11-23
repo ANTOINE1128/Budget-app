@@ -14,5 +14,4 @@ RSpec.feature 'Entities', type: :feature do
     fill_in 'Password', with: user.password
     click_button 'Next'
   end
-  
 end
