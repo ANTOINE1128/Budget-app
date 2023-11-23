@@ -86,5 +86,6 @@ test:
 production:
   <<: *default
   database: budget_app109_production
-  username: postgres
-  password: <%= ENV["db-Recipe"] %>
+  # username: postgres
+  # password: <%= ENV["db-Recipe"] %>
+   url: <%= ENV['DATABASE_URL'] %>
