@@ -11,6 +11,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
+     - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -26,7 +27,7 @@
 
 # 📖 budget app <a name="about-project"></a>
 
-**Budget App** The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.
+**Budget App** Take control of your finances effortlessly with our intuitive budget app. Seamlessly track, manage, and optimize your expenses, empowering you to achieve financial goals and enjoy peace of mind. Your path to financial well-being starts here
 ## 🛠 Built With <a name="built-with"></a>
 
   <ul>
@@ -44,6 +45,18 @@
 - [x] **Unit Tests**
 - [x] **Capybara Tests**
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://budget-app-project-r83d.onrender.com) 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Video Presentation <a name="video"></a>
+
+- [Video Presentation]()
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -58,7 +71,7 @@ In order to run this project, you need:
 ### Setup
 1. Install Ruby on Rails
 2. Clone this repo 
-git clone https://github.com/ANTOINE1128/Recipe-app
+git clone https://github.com/ANTOINE1128/Budget-app
 
 ### installation
 - to install this project,run the following command 
@@ -98,7 +111,7 @@ to run the tests run the following command
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ANTOINE1128/Recipe-app/issues).
+Feel free to check the [issues page](https://github.com/ANTOINE1128/Budget-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
