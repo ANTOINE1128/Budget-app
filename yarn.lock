@@ -583,6 +583,11 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
+controllers@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/controllers/-/controllers-0.0.2.tgz#c60cb523d72e5e1ac6f19539b057921cd6c59909"
+  integrity sha512-Xhe4m8rr1reyM9jHIxaJQMR/P7ItoXvYhqFATht/5XMWcuONaFbYUNnV7/6WxR58uc+d4OHU9rLuKYK+5KUopw==
+
 convert-source-map@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-2.0.0.tgz#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
