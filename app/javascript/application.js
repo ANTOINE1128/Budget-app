@@ -1,4 +1,8 @@
-// Entry point for the build script in your package.json
+// Correct import for Turbo Rails
 import "@hotwired/turbo-rails"
-import "./controllers"
+
+// Correct import for Bootstrap
 import * as bootstrap from "bootstrap"
+
+// Correct import for Stimulus
+import { Application } from "@hotwired/stimulus"
