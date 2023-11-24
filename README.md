@@ -55,7 +55,7 @@
 
 ## 🔭 Video Presentation <a name="video"></a>
 
-- [Video Presentation]()
+- [Video Presentation](https://www.loom.com/share/2163daaebb10401e8d218138e15674e3?sid=86535a24-dfc1-40de-b77c-5e698846fe7f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
