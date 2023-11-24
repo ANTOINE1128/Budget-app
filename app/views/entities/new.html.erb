@@ -1,6 +1,6 @@
 <div class="phone-border">
   <div class="flex-column align-items-centerd-flex flex-column align-items-center" style="min-height: 70vh; padding-bottom: 10vh; max-width: 100%!important;">
-    <%= form_with(model: [@group, @entity]) do |form| %>
+   <%= form_with(model: [@group, @entity], url: group_entities_path(@group)) do |form| %>
       <!-- Barra superior azul -->
       <div class="w-100 bg-primary text-white text-center d-flex justify-content-between align-items-center" style="height: 50px;">
         <%= link_to groups_path, class: "text-white ml-3" do %>
