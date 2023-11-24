@@ -2,7 +2,7 @@
 import "@hotwired/turbo-rails"
 
 // Correct import for Bootstrap
-import * as bootstrap from "bootstrap"
+// import * as bootstrap from "bootstrap"
 
 // Correct import for Stimulus
-import { Application } from "@hotwired/stimulus"
+// import { Application } from "@hotwired/stimulus"
