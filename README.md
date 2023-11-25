@@ -127,7 +127,9 @@ Please support this project and be a part of something meaningful and impactful.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Grateful to all for inspiring codebase, your dedication, and creativity made a lasting impact on our success. Thank you!
+- Grateful to all for inspiring codebase, your dedication, and creativity made a lasting impact on our success. Thank you!
+
+- Acknowledgements to (<a href="https://www.behance.net/gregoirevella">Gregoire Vella</a>) for the original design on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
