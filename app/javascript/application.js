@@ -1,3 +1,3 @@
-// app/javascript/application.js
-
-//= require @hotwired/turbo-rails
+// Entry point for the build script in your package.json
+import "@hotwired/turbo-rails"
+import "./controllers"
