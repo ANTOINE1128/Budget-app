@@ -7,7 +7,8 @@
     "stylelint-scss": "^3.21.0"
   },
   "scripts": {
-    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=/assets"
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=/assets",
+    "build:css": "cp app/assets/stylesheets/application.css app/assets/builds/application.css"
   },
   "dependencies": {
     "controllers": "^0.0.2"

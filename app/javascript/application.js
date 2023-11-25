@@ -1,2 +1,3 @@
-import "@hotwired/turbo-rails"
-import "controllers"
+// app/javascript/application.js
+
+//= require @hotwired/turbo-rails
